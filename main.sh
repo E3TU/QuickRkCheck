@@ -26,7 +26,7 @@ fi
 
 if [ $input == 3 ]
 then
-    echo "Running both rkhunter(includes update checking) and chkrootkit..."
+    echo "Running both chkrootkit and rkhunter(includes update checking)"
     sudo rkhunter --update
     sudo rkhunter --propupd
     sudo rkhunter --checkall --sk
