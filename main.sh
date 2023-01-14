@@ -1,6 +1,7 @@
 #!/bin/bash
 # Author : E3TU
 continueUse=1;
+
 while [ $continueUse = 1 ]
 do
     if [[ $UID != 0 ]]; then
