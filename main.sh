@@ -5,7 +5,7 @@ continueUse=1;
 while [ $continueUse = 1 ]
 do
     if [[ $UID != 0 ]]; then
-        echo "Please run this script with sudo:"
+        echo "Please run this script as root:"
         echo "sudo $0 $*"
         exit 1
     fi
