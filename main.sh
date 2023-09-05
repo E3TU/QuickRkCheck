@@ -15,7 +15,7 @@ do
     then
         echo "Checking for rkhunter updates..."
         sudo rkhunter --update
-        echo "Running propupd(this might take a while)..."
+        echo "Updating the file properties database(this might take a while)..."
         sudo rkhunter --propupd
         echo "Scanning for rootkits..."
         sudo rkhunter --checkall --sk
