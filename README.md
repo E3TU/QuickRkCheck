@@ -1,7 +1,7 @@
 
 # QuickRkCheck
 
-Simplify rootkit scanning with this automated script. Utilizing chkrootkit and rkhunter, it seamlessly automates the process, ensuring a comprehensive rootkit check across all Linux distributions. Ideal for users who prioritize efficiency without compromising security.
+Simplify rootkit scanning with this automated script. Utilizing both chkrootkit and rkhunter, it seamlessly automates the process, ensuring a comprehensive rootkit check across all Linux distributions.
 
 
 
